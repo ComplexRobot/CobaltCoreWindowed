@@ -2,8 +2,9 @@
 Allows a resizable window in Cobalt Core.
 
 ## Installation
-1. Download [XInput1_4.dll](https://github.com/ComplexRobot/CobaltCoreWindowed/releases/download/release/XInput1_4.dll) and place it into your Cobalt Core installation directory root.
-   - `C:\Program Files (x86)\Steam\steamapps\common\Cobalt Core\` is the default.
+1. Download [XInput1_4.dll](https://github.com/ComplexRobot/CobaltCoreWindowed/releases/download/release/XInput1_4.dll) and place it into your Cobalt Core installation directory.
+   - `C:\Program Files (x86)\Steam\steamapps\common\Cobalt Core` is the default.
+   - It must be placed in the `Cobalt Core` root directory. It won't be recognized in a subfolder.
 3. Launch Cobalt Core.
 4. Set the in-game setting to fullscreen (if it's not already).
 
