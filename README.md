@@ -9,7 +9,7 @@ Allows a resizable window in Cobalt Core.
 
 ## Usage
 Press the tilde key (\`~) to toggle between crop-to-fit and letterboxing display modes.
-
+### Additional Info.
 A log file `Windowed-Hook.log` and config file `Windowed-Hook.ini` will be generated on first run.
 
 All window positional information is saved and restored between relaunches of the game app.
