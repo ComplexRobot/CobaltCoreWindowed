@@ -13,6 +13,9 @@ A log file `Windowed-Hook.log` and config file `Windowed-Hook.ini` will be gener
 
 All window positional information is saved and restored between relaunches of the game app.
 
+## Uninstall
+Remove or rename `XInput1_4.dll`.
+
 ## Information
 Uses a [minimalist injection-hook pattern](https://github.com/TsudaKageyu/minhook) to add functionality to the base code of the game.
 
