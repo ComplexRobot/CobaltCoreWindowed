@@ -1,0 +1,4 @@
+namespace WindowedHook
+{
+  bool WrapDll();
+}

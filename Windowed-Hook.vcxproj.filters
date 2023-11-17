@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\PrecompiledHeader.cpp" />
+    <ClCompile Include="Source\hook.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\trampoline.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\buffer.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\hde\hde32.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\hde\hde64.c">
+      <Filter>MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Hooks.cpp" />
+    <ClCompile Include="Source\Log.cpp" />
+    <ClCompile Include="Source\HooksWindows.cpp" />
+    <ClCompile Include="Source\DllWrapper.cpp" />
+    <ClCompile Include="Source\Config.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Includes.h" />
+    <ClInclude Include="Source\buffer.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\trampoline.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\hde\hde32.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\hde\hde64.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\hde\pstdint.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\hde\table32.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\hde\table64.h">
+      <Filter>MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MinHook.h" />
+    <ClInclude Include="Source\Main.h" />
+    <ClInclude Include="Source\Hooks.h" />
+    <ClInclude Include="Source\Log.h" />
+    <ClInclude Include="Source\HooksWindows.h" />
+    <ClInclude Include="Source\DllWrapper.h" />
+    <ClInclude Include="Source\Config.h" />
+    <ClInclude Include="Source\Defines.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MinHook">
+      <UniqueIdentifier>{1066b486-26f2-4797-93a5-819c0a784e26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
