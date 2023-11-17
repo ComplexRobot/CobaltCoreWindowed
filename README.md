@@ -20,4 +20,4 @@ Remove or rename `XInput1_4.dll`.
 ## Information
 The code uses a [minimalist hook-injection pattern](https://github.com/TsudaKageyu/minhook) to add functionality to the game.
 
- It adds a workaround to display the window and be resizable without modifying the base game. It uses a minimalistic and modular design that should continue to work, but it is still possible it may break in future releases of the game.
+ It adds a workaround to display the window correctly and be resizable without modifying the base game.
