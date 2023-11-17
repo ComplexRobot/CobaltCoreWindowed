@@ -18,6 +18,6 @@ All window positional information is saved and restored between relaunches of th
 Remove or rename `XInput1_4.dll`.
 
 ## Information
-Uses a [minimalist injection-hook pattern](https://github.com/TsudaKageyu/minhook) to add functionality to the game without actually modifying anything within the base game.
+Uses a [minimalist hook-injection pattern](https://github.com/TsudaKageyu/minhook) to add functionality to the game without actually modifying anything within the base game.
 
 This adds a workaround to display the window and be resizable. It uses a minimalistic and modular design that should continue to work, but it is still possible it may break in future releases of the game.
