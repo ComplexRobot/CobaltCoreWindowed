@@ -23,4 +23,4 @@ The code uses a [minimalist hook-injection pattern](https://github.com/TsudaKage
 
  It adds a workaround to display the window correctly and be resizable without modifying the base game.
 
-There's a rendering cutoff if the window is larger than the fullscreen size.
+There's a rendering cutoff if the window is larger than the fullscreen resolution.
