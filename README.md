@@ -9,7 +9,7 @@ Allows a resizable window in Cobalt Core.
 4. Set the in-game setting to fullscreen (if it's not already).
 
 ## Usage
-Press the tilde key (located above `Tab`, `` `~ `` on standard US keyboard) to toggle between crop-to-fit and letterboxing display modes.
+Press the tilde key to toggle between crop-to-fit and letterboxing display modes. It's located above `Tab` (`` `~ `` on standard US keyboard).
 ### Additional Info.
 A log file `Windowed-Hook.log` and config file `Windowed-Hook.ini` will be generated on first run.
 
