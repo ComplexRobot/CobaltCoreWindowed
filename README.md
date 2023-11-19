@@ -10,7 +10,7 @@ Allows a resizable window in Cobalt Core.
 
 ## Usage
 - Press the tilde key to toggle between crop-to-fit and letterboxing display modes.
-   - It's located above `Tab` (`` `~ `` on standard US keyboard).
+   - It's located above `Tab` (`` `~ `` on a standard US keyboard).
 ### Additional Info.
 A log file `Windowed-Hook.log` and config file `Windowed-Hook.ini` will be generated on first run.
 
